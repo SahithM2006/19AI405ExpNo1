@@ -40,7 +40,10 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-<h3>Program</h3>
+
+Program
+```
+
 import random
 ROOMS = ["Room 1", "Room 2"]
 FEVER_THRESHOLD = 98.5
@@ -78,7 +81,8 @@ for room in ROOMS:
         print(f"No treatment needed in {room}.\n")
 print("\nSimulation Complete!")
 print(f"Final Performance Score: {performance_score}")
-print("Environment State:", environment)
+print("Environment State:", environment
+```
 <h3>Output</h3>
 <img width="482" height="282" alt="image" src="https://github.com/user-attachments/assets/a54b0c49-15ad-43dd-b64b-972b02f1115a" />
 <h3>Result</h3>
